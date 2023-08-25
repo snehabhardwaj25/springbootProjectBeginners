@@ -35,7 +35,7 @@ public class InMemoryStudentDao {
 				.orElse(null);
 	}
 
-	
+//	method to updATE ord
 	
 	public Student update(Student s) {
 		var studentIndex = IntStream.range(0, STUDENTS.size())
@@ -49,6 +49,7 @@ public class InMemoryStudentDao {
 		return null;
 	}
 
+//	method to delete students record
 	
 	
 	public void delete(String email) {
